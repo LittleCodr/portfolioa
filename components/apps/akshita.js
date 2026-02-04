@@ -470,3 +470,8 @@ function Resume() {
                             <li>Core Member, GeeksForGeeks (GFG) Student Chapter.</li>
                         </ul>
                     </div>
+                </div>
+            </div>
+        </div>
+    )
+}
