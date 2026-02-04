@@ -324,7 +324,7 @@ function Resume() {
                             <p className="text-sm text-gray-400 space-x-2 mt-1">
                                 <span><a className="hover:text-ub-orange" href="mailto:rawatakshita0987@gmail.com">rawatakshita0987@gmail.com</a></span>
                                 <span>|</span>
-                                <span><a className="hover:text-ub-orange" href="https://github.com/LittleCodr" target="_blank" rel="noreferrer">github.com/LittleCodr</a></span>
+                                <span><a className="hover:text-ub-orange" href="https://github.com/akshita-daredevils" target="_blank" rel="noreferrer">github.com/akshita-daredevils</a></span>
                                 <span>|</span>
                                 <span><a className="hover:text-ub-orange" href="https://linkedin.com/in/akshita-rawat-b64359284" target="_blank" rel="noreferrer">LinkedIn</a></span>
                             </p>

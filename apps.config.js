@@ -99,7 +99,7 @@ const apps = [
         favourite: false,
         desktop_shortcut: true,
         isExternalApp: true,
-        url: "https://github.com/LittleCodr",
+        url: "https://github.com/akshita-daredevils",
         screen: () => {},
     },
     {
@@ -110,7 +110,7 @@ const apps = [
         favourite: false,
         desktop_shortcut: true,
         isExternalApp: true,
-        url: "https://rentits.in"
+        url: "https://github.com/akshita-daredevils"
     },
 ]
 

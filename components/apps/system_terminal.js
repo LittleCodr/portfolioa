@@ -10,9 +10,9 @@ const SystemTerminal = ({ onClose }) => {
   const commands = {
     help: 'Available commands: help, about, projects, skills, contact, clear, theme [light/dark]',
     about: 'This is a portfolio website built with Next.js and React, styled to look like Ubuntu 20.04.',
-    projects: 'Check out my projects on GitHub: https://github.com/yourusername',
+    projects: 'Check out my projects on GitHub: https://github.com/akshita-daredevils',
     skills: 'Technologies I work with: JavaScript, React, Node.js, Python, and more!',
-    contact: 'Email: rawatakshita0987@gmail.com | GitHub: github.com/LittleCodr | LinkedIn: linkedin.com/in/akshita-rawat-b64359284',
+    contact: 'Email: rawatakshita0987@gmail.com | GitHub: github.com/akshita-daredevils | LinkedIn: linkedin.com/in/akshita-rawat-b64359284',
     clear: () => setOutput([]),
     theme: (args) => {
       const theme = args[0];

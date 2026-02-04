@@ -16,8 +16,8 @@ function BootingScreen(props) {
                 <a className="underline" href="https://heyakshita.in" rel="noreferrer noopener" target="_blank">website</a>
                 <a className="underline" href="https://heyakshita.in" rel="noreferrer noopener" target="_blank">portfolio</a>
                 <span className="font-bold mx-1">|</span>
-                <a href="https://github.com/LittleCodr" rel="noreferrer noopener" target="_blank" className="underline">github</a>
-                <a href="https://github.com/LittleCodr/portfolio" rel="noreferrer noopener" target="_blank" className="underline">github</a>
+                <a href="https://github.com/akshita-daredevils" rel="noreferrer noopener" target="_blank" className="underline">github</a>
+                <a href="https://github.com/akshita-daredevils/portfolio" rel="noreferrer noopener" target="_blank" className="underline">github</a>
             </div>
         </div>
     )
