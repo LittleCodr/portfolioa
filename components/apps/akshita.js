@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import ReactGA from 'react-ga4';
 
-export class AboutMayank extends Component {
+export class AboutAkshita extends Component {
     constructor() {
         super();
         this.screens = {};
@@ -56,23 +56,23 @@ export class AboutMayank extends Component {
         return (
             <>
                 <div id="about" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "about" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="about mayank" src="./themes/Yaru/status/about.svg" />
+                    <img className=" w-3 md:w-4" alt="about akshita" src="./themes/Yaru/status/about.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">About Me</span>
                 </div>
                 <div id="education" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "education" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="mayank's education" src="./themes/Yaru/status/education.svg" />
+                    <img className=" w-3 md:w-4" alt="akshita's education" src="./themes/Yaru/status/education.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Education</span>
                 </div>
                 <div id="skills" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "skills" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="mayank's skills" src="./themes/Yaru/status/skills.svg" />
+                    <img className=" w-3 md:w-4" alt="akshita's skills" src="./themes/Yaru/status/skills.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Skills</span>
                 </div>
                 <div id="projects" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "projects" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="mayank's projects" src="./themes/Yaru/status/projects.svg" />
+                    <img className=" w-3 md:w-4" alt="akshita's projects" src="./themes/Yaru/status/projects.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Projects</span>
                 </div>
                 <div id="resume" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "resume" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="mayank's resume" src="./themes/Yaru/status/download.svg" />
+                    <img className=" w-3 md:w-4" alt="akshita's resume" src="./themes/Yaru/status/download.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Resume</span>
                 </div>
             </>
@@ -101,10 +101,10 @@ export class AboutMayank extends Component {
     }
 }
 
-export default AboutMayank;
+export default AboutAkshita;
 
-export function displayAboutMayank() {
-    return <AboutMayank />;
+export function displayAboutAkshita() {
+    return <AboutAkshita />;
 }
 
 function About() {
@@ -114,11 +114,11 @@ function About() {
                 <img 
                     className="w-full h-full object-cover" 
                     src="https://avatars.githubusercontent.com/u/121036421" 
-                    alt="Mayank Agrawal's Profile" 
+                    alt="Akshita Rawat's Profile" 
                 />
             </div>
             <div className="mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
-                <div>Hello, I'm <span className="font-bold">Mayank Agrawal</span></div>
+                <div>Hello, I'm <span className="font-bold">Akshita Rawat</span></div>
                 <div className="font-normal">
                     <span className="text-ub-orange font-bold">Founding Developer</span> | 
                     <span className="text-blue-400"> CS Undergraduate</span>
@@ -231,7 +231,7 @@ function Projects() {
     return (
         <div className="w-full px-1 md:px-4 py-2">
             <div className="text-xl md:text-2xl font-bold">Key Projects</div>
-            <p className="text-gray-400 text-sm mt-1 mb-4">More work on <a href="https://mayank1406.pro/projects" target="_blank" rel="noopener noreferrer" className="text-ub-orange hover:underline">mayank1406.pro/projects</a></p>
+            <p className="text-gray-400 text-sm mt-1 mb-4">More work on <a href="https://rentits.in/projects" target="_blank" rel="noopener noreferrer" className="text-ub-orange hover:underline">rentits.in/projects</a></p>
 
             <div className="mt-4 space-y-6">
                 <div className="border border-gray-700 rounded-lg p-4 hover:border-ub-orange transition-colors duration-300">
@@ -264,7 +264,7 @@ function Resume() {
                 <div className="bg-gray-800 rounded-lg p-6 shadow-lg">
                     <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6">
                         <div>
-                            <h2 className="text-2xl font-bold text-white">Mayank Agrawal</h2>
+                            <h2 className="text-2xl font-bold text-white">Akshita Rawat</h2>
                             <p className="text-gray-300">Founding Developer | Mobile & AI Engineer</p>
                         </div>
                         <a 

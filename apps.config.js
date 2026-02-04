@@ -6,7 +6,7 @@ import { displaySettings } from './components/apps/settings';
 import { displayChrome } from './components/apps/chrome';
 import { displayTrash } from './components/apps/trash';
 import { displayGedit } from './components/apps/gedit';
-import { displayAboutMayank as displayAboutMe } from './components/apps/mayank';
+import { displayAboutAkshita as displayAboutMe } from './components/apps/akshita';
 import { displayTerminalCalc } from './components/apps/calc';
 
 const apps = [

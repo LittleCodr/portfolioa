@@ -6,14 +6,14 @@ export default function Meta() {
     return (
         <Head>
            {/* Primary Meta Tags */}
-            <title>Mayank Agrawal | Founding Developer, Mobile & AI Engineer</title>
+            <title>Akshita Rawat | Founding Developer, Mobile & AI Engineer</title>
             <meta charSet="utf-8" />
-            <meta name="title" content="Mayank Agrawal | Founding Developer, Mobile & AI Engineer" />
+            <meta name="title" content="Akshita Rawat | Founding Developer, Mobile & AI Engineer" />
             <meta name="description"
-                content="Mayank Agrawal is a founding developer and CS undergraduate building production-ready mobile apps with LLM-powered features. Expertise in Flutter, native iOS/Android, Azure, Firebase, GCP, and full-stack delivery from architecture to launch." />
-            <meta name="author" content="Mayank Agrawal" />
+                content="Akshita Rawat is a founding developer and CS undergraduate building production-ready mobile apps with LLM-powered features. Expertise in Flutter, native iOS/Android, Azure, Firebase, GCP, and full-stack delivery from architecture to launch." />
+            <meta name="author" content="Akshita Rawat" />
             <meta name="keywords"
-                content="mayank agrawal, mayank agrawal portfolio, founding developer, mobile engineer, ai engineer, flutter, swift, kotlin, llm, azure, firebase, gcp, mathura, india" />
+                content="akshita rawat, akshita rawat portfolio, founding developer, mobile engineer, ai engineer, flutter, swift, kotlin, llm, azure, firebase, gcp, mathura, india" />
             <meta name="robots" content="index, follow" />
             <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
             <meta name="language" content="English" />
@@ -23,25 +23,25 @@ export default function Meta() {
             {/* Search Engine */}
             <meta name="image" content="images/logos/fevicon.png" />
             {/* Schema.org for Google */}
-            <meta itemProp="name" content="Mayank's Portfolio" />
+            <meta itemProp="name" content="Akshita's Portfolio" />
             <meta itemProp="description"
-                content="Mayank's Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
+                content="Akshita's Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
             <meta itemProp="image" content="images/logos/fevicon.png" />
             {/* Twitter */}
             <meta name="twitter:card" content="summary" />
-            <meta name="twitter:title" content="Mayank Agrawal | Founding Developer" />
+            <meta name="twitter:title" content="Akshita Rawat | Founding Developer" />
             <meta name="twitter:description"
-                content="Mayank Agrawal builds scalable mobile apps with LLM integrations across Flutter, iOS, and Android, backed by Azure, Firebase, and GCP." />
+                content="Akshita Rawat builds scalable mobile apps with LLM integrations across Flutter, iOS, and Android, backed by Azure, Firebase, and GCP." />
             <meta name="twitter:site" content="@mindflayer_69" />
             <meta name="twitter:creator" content="@mindflayer_69" />
             <meta name="twitter:image:src" content="images/logos/logo_1024.png" />
             {/* Open Graph general (Facebook, Pinterest & Google+) */}
-            <meta name="og:title" content="Mayank Agrawal | Founding Developer" />
+            <meta name="og:title" content="Akshita Rawat | Founding Developer" />
             <meta name="og:description"
-                content="Mayank Agrawal is a founding developer building scalable mobile products with LLM-driven experiences and cloud-first delivery." />
+                content="Akshita Rawat is a founding developer building scalable mobile products with LLM-driven experiences and cloud-first delivery." />
             <meta name="og:image" content="https://avatars.githubusercontent.com/u/121036421" />
-            <meta name="og:url" content="https://mayank1406.pro/" />
-            <meta name="og:site_name" content="Mayank Agrawal" />
+            <meta name="og:url" content="https://rentits.in/" />
+            <meta name="og:site_name" content="Akshita Rawat" />
             <meta name="og:locale" content="en_IN" />
             <meta name="og:type" content="website" />
 

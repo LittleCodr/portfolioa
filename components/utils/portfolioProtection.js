@@ -1,18 +1,17 @@
 // Repo refreshed on 2025-11-15
 
 const config = {
-  owner: 'Mayank Agrawal',
-  portfolioUrl: 'https://littlecodr.github.io/portfolio',
+  owner: 'Akshita Rawat',
+  portfolioUrl: 'https://rentits.in',
   email: 'littlecodr@gmail.com',
   authorizedDomains: [
-    'mayank0108.netlify.app',
-    'mayank1406.pro',
-    'heymayank.in',
-    'localhost',
-    '127.0.0.1'
+    'rentits.in',
+    'www.rentits.in',
+    '127.0.0.1',
+    'localhost'
   ],
-  watermarkText: '© Mayank Agrawal | littlecodr.github.io/portfolio',
-  consoleMessage: `%c🔒 Portfolio Protection Active 🔒\n\nThis portfolio belongs to Mayank Agrawal (LittleCodr).\nPlease respect the owner's work and do not copy without permission.\n\nContact: littlecodr@gmail.com\n`,
+  watermarkText: '© Akshita Rawat | rentits.in',
+  consoleMessage: `%c🔒 Portfolio Protection Active 🔒\n\nThis portfolio belongs to Akshita Rawat (Rentits).\nPlease respect the owner's work and do not copy without permission.\n\nContact: littlecodr@gmail.com\n`,
   consoleStyle: 'color: #4CAF50; font-weight: bold; font-size: 12px;'
 };
 
@@ -139,7 +138,7 @@ export function initPortfolioProtection() {
   }
   
   // Add meta tag to prevent indexing if not on an authorized domain
-  if (!isAuthorizedDomain() && window.location.hostname !== 'littlecodr.github.io') {
+  if (!isAuthorizedDomain() && window.location.hostname !== 'rentits.in') {
     const meta = document.createElement('meta');
     meta.content = 'noindex, nofollow';
     document.head.appendChild(meta);
@@ -149,10 +148,10 @@ export function initPortfolioProtection() {
     warning.className = 'unauthorized-warning';
     
     const warningText = document.createElement('span');
-    warningText.textContent = '⚠️ This is an unauthorized copy of Mayank Agrawal\'s portfolio. ';
+    warningText.textContent = '⚠️ This is an unauthorized copy of Akshita Rawat\'s portfolio. ';
     
     const link = document.createElement('a');
-    link.href = 'https://mayank1406.pro';
+    link.href = 'https://rentits.in';
     link.textContent = 'Visit the official portfolio here';
     link.target = '_blank';
     link.rel = 'noopener noreferrer';
