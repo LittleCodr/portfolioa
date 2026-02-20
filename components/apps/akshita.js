@@ -113,7 +113,7 @@ function About() {
             <div className="w-20 md:w-28 my-4 bg-white rounded-full overflow-hidden">
                 <img 
                     className="w-full h-full object-cover" 
-                    src="https://avatars.githubusercontent.com/u/121036421" 
+                    src="https://media.licdn.com/dms/image/v2/D5603AQEb3sY9tT3cOw/profile-displayphoto-crop_800_800/B56ZiAFHpLHMAI-/0/1754495495098?e=1773273600&v=beta&t=BJsvuBaLLngvR1HxDYTzQSr_FSb7pQjerhyJjtze3ZY" 
                     alt="Akshita Rawat's Profile" 
                 />
             </div>
@@ -137,7 +137,7 @@ function About() {
                     Strong command of <span className="font-medium">distributed and decentralized systems</span>, delivering performant, scalable architectures.
                 </li>
                 <li className="mt-3 list-time">
-                    Comfortable owning delivery end-to-end: CI/CD, Docker/Kubernetes, AWS, performance tuning, and observability.
+                    Comfortable owning delivery end-to-end: CI/CD, Docker/Kubernetes, AWS, performance tuninsg, and observability.
                 </li>
                 <li className="mt-3 list-star">
                     National hackathon winner with a track record of shipping <span className="font-medium">high-impact, production-grade</span> features quickly.
