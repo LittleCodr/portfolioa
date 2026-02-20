@@ -137,7 +137,7 @@ function About() {
                     Strong command of <span className="font-medium">distributed and decentralized systems</span>, delivering performant, scalable architectures.
                 </li>
                 <li className="mt-3 list-time">
-                    Comfortable owning delivery end-to-end: CI/CD, Docker/Kubernetes, AWS, performance tuninsg, and observability.
+                    Comfortable owning delivery end-to-end: CI/CD, Docker/Kubernetes, AWS, performance tuning, and observability.
                 </li>
                 <li className="mt-3 list-star">
                     National hackathon winner with a track record of shipping <span className="font-medium">high-impact, production-grade</span> features quickly.
